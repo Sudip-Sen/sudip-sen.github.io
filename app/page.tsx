@@ -13,12 +13,15 @@ const socials = [
 ];
 
 const updates = [
+  { date: "Jun 2026", text: "Joined the Liana Infestation Mapping project — using GEDI LiDAR and Sentinel-2 to map liana spread across Bangladesh's Sal forest landscape." },
+  { date: "May 2026", text: "New paper accepted In Press — Red seaweed extract as biostimulant for groundnut drought tolerance, Journal of Applied Phycology." },
   { date: "May 7, 2026", text: "Launched my personal academic portfolio website at sudip-sen.github.io" },
   { date: "May 1, 2026", text: "First-authored MS Thesis paper on precision early cotton yield prediction accepted and published in Smart Agricultural Technology journal!" },
 ];
 
 const publications = [
-  { type: "published", year: "2025", title: "Statistical and machine learning models for early cotton yield prediction under resource gradient", authors: ["Sen, S.", "Nesa, M. M.", "Rahman, M. F.", "Ashiquzzaman, M.", "Ahmmed, T.", "Tuhin, A. K.", "Islam, M. S.", "Abdullah, H.M."], journal: "Smart Agricultural Technology, 102164", link: "https://doi.org/10.1016/j.atech.2026.102164" },
+  { type: "review", year: "2026", title: "Red seaweed extract as a phycological biostimulant enhances groundnut drought tolerance: Integrated agronomic, physiological, and UAV-based insights", authors: ["Nesa, M. M.", "Sen, S.", "Tuhin, A. K.", "Rahman, M. F.", "Islam, M.", "Rafiquzzaman, S. M.", "Miah, M. M. U.", "Abdullah, H. M."], journal: "Journal of Applied Phycology (In Press)", link: null },
+  { type: "published", year: "2026", title: "Statistical and machine learning models for early cotton yield prediction under resource gradient", authors: ["Sen, S.", "Nesa, M. M.", "Rahman, M. F.", "Ashiquzzaman, M.", "Ahmmed, T.", "Tuhin, A. K.", "Islam, M. S.", "Abdullah, H.M."], journal: "Smart Agricultural Technology, 102164", link: "https://doi.org/10.1016/j.atech.2026.102164" },
   { type: "published", year: "2025", title: "Cotton Seedling Monitoring and Growth Stage Classification Integrating Deep Learning and Feature Engineering", authors: ["Abdullah, H. M.", "Islam, M.", "Islam, M. S.", "Sen, S.", "Tuhin, A. K.", "Arman, S. E.", "Hasan, M. M."], journal: "Smart Agricultural Technology, 101619", link: "https://doi.org/10.1016/j.atech.2025.101619" },
   { type: "review", year: "2025", title: "Challenges of Unmanned Aerial Systems (UAS) in Crop Production", authors: ["Sen, S.", "Nesa, M. M.", "Ashiquzzaman, M.", "Tuhin, A. K."], journal: "UAV Applications in Natural Resources, Springer (Under Review)", link: null },
   { type: "published", year: "2025", title: "Heat and Drought Induced Yield Loss Quantification of Wheat: Predicted from UAV-based Phenological Parameters", authors: ["Tuhin, A. K.", "Abdullah, H. M.", "Rahman, M. F.", "Ashiquzzaman, M.", "Islam, M. R.", "Sen, S.", "Nesa, M. M."], journal: "Smart Agricultural Technology, 101487", link: "https://doi.org/10.1016/j.atech.2025.101487" },
