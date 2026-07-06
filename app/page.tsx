@@ -13,7 +13,7 @@ const socials = [
 ];
 
 const updates = [
-  { date: "Jun 2026", text: "Joined the Liana Infestation Mapping project — using GEDI LiDAR and Sentinel-2 to map liana spread across Bangladesh's Sal forest landscape." },
+  { date: "Jun 2026", text: "Data collection in the Liana Infestation Mapping project - using GEDI LiDAR and Sentinel-2 to map liana spread across Bangladesh's Sal forest landscape." },
   { date: "May 2026", text: "New paper accepted In Press — Red seaweed extract as biostimulant for groundnut drought tolerance, Journal of Applied Phycology." },
   { date: "May 7, 2026", text: "Launched my personal academic portfolio website at sudip-sen.github.io" },
   { date: "May 1, 2026", text: "First-authored MS Thesis paper on precision early cotton yield prediction accepted and published in Smart Agricultural Technology journal!" },
