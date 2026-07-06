@@ -37,12 +37,12 @@ const skillGroups = [
 ];
 
 const galleryPhotos = [
-  { src: "/gallery/photo1.jpg", caption: "UAV field operation" },
-  { src: "/gallery/photo2.jpg", caption: "Lab work" },
-  { src: "/gallery/photo3.jpg", caption: "Field sampling" },
-  { src: "/gallery/photo4.jpg", caption: "Research activity" },
-  { src: "/gallery/photo5.jpg", caption: "Conference" },
-  { src: "/gallery/photo6.jpg", caption: "Yale collaboration fieldwork" },
+  { src: "/gallery/picture1.jpg", caption: "UAV field operation" },
+  { src: "/gallery/picture2.jpg", caption: "Lab work" },
+  { src: "/gallery/picture3.jpg", caption: "Field sampling" },
+  { src: "/gallery/picture4.jpg", caption: "Research activity" },
+  { src: "/gallery/picture5.jpg", caption: "Conference" },
+  { src: "/gallery/picture6.jpg", caption: "Yale collaboration fieldwork" },
 ];
 
 const accent = "#4ade80";
@@ -202,15 +202,17 @@ useEffect(() => {
               </div>
               <div style={{ background: "var(--card)", border: "1px solid var(--card-border)", borderRadius: "16px", padding: "1.5rem", width: "100%" }}>
                 <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginBottom: "1.2rem" }}>
-                  <span style={{ width: "8px", height: "8px", background: accent, borderRadius: "50%", display: "inline-block", animation: "pulse 2s infinite" }}></span>
+                  <span style={{ width: "8px", height: "8px", background: "#ef4444", borderRadius: "50%", display: "inline-block", animation: "pulseRed 2s infinite" }}></span>
                   <span style={{ fontSize: "0.72rem", fontWeight: 700, color: accent, textTransform: "uppercase", letterSpacing: "0.12em" }}>Recent Updates</span>
                 </div>
+                <div style={{ maxHeight: "220px", overflowY: "auto", paddingRight: "0.25rem" }}>
                 {updates.map((u, i) => (
                   <div key={i} style={{ display: "flex", gap: "0.75rem", paddingBottom: i < updates.length - 1 ? "1rem" : 0, marginBottom: i < updates.length - 1 ? "1rem" : 0, borderBottom: i < updates.length - 1 ? "1px solid var(--line)" : "none" }}>
-                    <div style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: "0.7rem", color: accent, whiteSpace: "nowrap", paddingTop: "0.15rem", minWidth: "75px" }}>{u.date}</div>
-                    <div style={{ fontSize: "0.82rem", color: "var(--text2)", lineHeight: 1.6 }}>{u.text}</div>
+                  <div style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: "0.7rem", color: accent, whiteSpace: "nowrap", paddingTop: "0.15rem", minWidth: "75px" }}>{u.date}</div>
+                  <div style={{ fontSize: "0.82rem", color: "var(--text2)", lineHeight: 1.6 }}>{u.text}</div>
                   </div>
-                ))}
+                  ))}
+                </div>
               </div>
             </div>
           </div>
@@ -470,7 +472,7 @@ useEffect(() => {
 
       <style>{`
         @keyframes blink { 0%,50%{opacity:1} 51%,100%{opacity:0} }
-        @keyframes pulse { 0%,100%{box-shadow:0 0 0 0 rgba(74,222,128,0.4)} 50%{box-shadow:0 0 0 6px rgba(74,222,128,0)} }
+        @keyframes pulseRed { 0%,100%{box-shadow:0 0 0 0 rgba(239,68,68,0.4)} 50%{box-shadow:0 0 0 6px rgba(239,68,68,0)} }
         @media(max-width:900px){
           .hero-grid { grid-template-columns: 1fr !important; }
           .about-grid { grid-template-columns: 1fr !important; }
