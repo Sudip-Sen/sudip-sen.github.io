@@ -433,9 +433,9 @@ useEffect(() => {
             </div>
             <div>
               <p style={{ fontSize: "0.82rem", color: "var(--text3)", marginBottom: "1.2rem", background: "var(--accent-dim)", padding: "0.75rem 1rem", borderRadius: "8px", borderLeft: "3px solid var(--accent)" }}>
-                💡 Sign up free at <strong>formspree.io</strong> and replace <code>YOUR_FORM_ID</code> to activate this form.
+                💡 Send Email Here.
               </p>
-              <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+              <form action="https://formspree.io/f/xjgjrwrl" method="POST" style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
                   {[["Name", "name", "Your name"], ["Email", "email", "your@email.com"]].map(([label, name, ph]) => (
                     <div key={String(name)}>
